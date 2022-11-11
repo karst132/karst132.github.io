@@ -1,0 +1,19 @@
+.title {
+    padding: 5px;
+}
+
+.blue-text {
+    color: blue;
+}
+
+.block-letter {
+    font-family: sans-serif;
+}
+
+.title-block {
+    width: 200px;
+}
+
+.black-gray {
+    color: #1e272c;
+}
