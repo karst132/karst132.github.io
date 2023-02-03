@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+body{
+    display: flex;
+    flex-direction: column;
+}
+.project-1{
+    background-image: url('../images/project-1.jpg');
+    background-size: cover;
+    overflow: hidden;
+}
+.index-1{
+    background-image: url('../images/image-2.jpg');
+    background-size: cover;
+    overflow: hidden;
+}
+.skills-1{
+    background-image: url('../images/image-1.jpg');
+    background-size: cover;
+    overflow: hidden;
+}
+.contacts-1{
+    background-image: url('../images/contacts-1.jpg');
+    background-size: cover;
+    overflow: hidden;
+}
+.container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    
+}
+.container-with-hieght{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.row{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+}
+.row-contacts{
+    width: 70vw;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+}
+.darkgray{
+    background-color:#555;
+}
+.lightgray{
+    background-color: #6f6f6f;
+}
+header{
+    height: 75px;
+    border-bottom: solid black 3px;
+    padding-left: 35px;
+    padding-top: 30px;
+}
+.parallelogram {
+    width: 200px;
+    height: 50px;
+    transform: skew(-40deg);   
+    border-right: 3px solid black;
+    position: relative;
+    z-index: 2;
+    right: 20px;
+    border-bottom: 3px solid black;
+}
+.bg{
+    width: 200px;
+    display: flex;
+    border-bottom: 3px solid black;
+    position: relative;
+    height: 50px;
+    z-index: 1;
+}
+.border-left{
+    border-left: 3px solid black;
+}
+.back-to-straight{
+    transform: skew(40deg);   
+}
+.margin-top-15-left-35{
+    margin-top: 15px;
+    margin-left: 35px;
+}
+footer{
+    height: 75px;
+    border-top: solid black 3px;
+    padding-left: 35px;
+    padding-top: 15px;
+}
+.text-no-decorasion{
+    text-decoration: none;
+}
+.text-white{
+    color: white;
+}
+.margin-bottom-5{
+    margin-bottom: 5px;
+}
+.picture-placeholder{
+    height: 300px;
+    width: 500px;
+    margin-bottom: 15px;
+}
+.margin-bottom-25{
+    margin-bottom: 25px;
+}
+.text-box{
+    width: 50vw;
+}
+.small-text-box{
+    width: 25vw;
+}
+main{
+    padding-right: 70px;
+    padding-left: 35px;
+    margin-top: 70px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 77vh;
+}
+.smaller-text-box{
+    margin-bottom: 55px;
+    
+}
+.space-between{
+    justify-content: space-between;
+}
+.center{
+    align-self: center;
+}
+.picture-placeholder-contacts{
+    width: 40vw;
+    height: 15vw;
+    align-self: center;
+}
